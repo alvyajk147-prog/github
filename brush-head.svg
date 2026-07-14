@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" width="1200" height="1500">
+  <defs>
+    <linearGradient id="brush-head" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#231e18"/>
+      <stop offset="100%" stop-color="#0e0b09"/>
+    </linearGradient>
+    <radialGradient id="brush-head-glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#d9b876" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#d9b876" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#brush-head)"/>
+  <rect width="1200" height="1500" fill="url(#brush-head-glow)"/>
+  
+  <g transform="translate(600,760) scale(2.0)" fill="none" stroke="#d9b876" stroke-opacity="0.5" stroke-width="3">
+    <line x1="0" y1="120" x2="0" y2="-40" stroke-width="10" stroke-linecap="round"/>
+    <ellipse cx="0" cy="-70" rx="26" ry="46" stroke-width="6"/>
+    <path d="M -70 -70 Q -100 -70 -110 -100" stroke-width="3"/>
+    <path d="M 70 -70 Q 100 -70 110 -100" stroke-width="3"/>
+    <path d="M -90 -30 Q -130 -30 -150 -50" stroke-width="3"/>
+    <path d="M 90 -30 Q 130 -30 150 -50" stroke-width="3"/>
+    <circle cx="0" cy="-70" r="90" stroke-width="1.5" stroke-opacity="0.25"/>
+    <circle cx="0" cy="-70" r="130" stroke-width="1" stroke-opacity="0.15"/>
+  </g><text x="1160" y="1460" text-anchor="end" font-family="Georgia, serif" font-size="42" fill="#d9b876" fill-opacity="0.55" letter-spacing="4">Sonic Brush Head</text>
+</svg>

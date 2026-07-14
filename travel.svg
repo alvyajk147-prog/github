@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="travel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#221e19"/>
+      <stop offset="100%" stop-color="#0f0c0a"/>
+    </linearGradient>
+    <radialGradient id="travel-glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#d9b876" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#d9b876" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#travel)"/>
+  <rect width="1200" height="900" fill="url(#travel-glow)"/>
+  
+  <g transform="translate(600,420) scale(2.0)" fill="none" stroke="#d9b876" stroke-opacity="0.4" stroke-width="4">
+    <rect x="-60" y="-100" width="120" height="200" rx="18"/>
+    <line x1="-60" y1="-20" x2="60" y2="-20"/>
+  </g><text x="1160" y="860" text-anchor="end" font-family="Georgia, serif" font-size="25" fill="#d9b876" fill-opacity="0.55" letter-spacing="4">Travel Case</text>
+</svg>

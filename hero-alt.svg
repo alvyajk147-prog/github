@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" width="1400" height="1000">
+  <defs>
+    <linearGradient id="hero-alt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241f18"/>
+      <stop offset="100%" stop-color="#0c0a08"/>
+    </linearGradient>
+    <radialGradient id="hero-alt-glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#d9b876" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#d9b876" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="1000" fill="url(#hero-alt)"/>
+  <rect width="1400" height="1000" fill="url(#hero-alt-glow)"/>
+  
+  <g transform="translate(700,480) scale(2.3)" fill="none" stroke="#d9b876" stroke-opacity="0.5" stroke-width="3">
+    <line x1="0" y1="120" x2="0" y2="-40" stroke-width="10" stroke-linecap="round"/>
+    <ellipse cx="0" cy="-70" rx="26" ry="46" stroke-width="6"/>
+    <path d="M -70 -70 Q -100 -70 -110 -100" stroke-width="3"/>
+    <path d="M 70 -70 Q 100 -70 110 -100" stroke-width="3"/>
+    <path d="M -90 -30 Q -130 -30 -150 -50" stroke-width="3"/>
+    <path d="M 90 -30 Q 130 -30 150 -50" stroke-width="3"/>
+    <circle cx="0" cy="-70" r="90" stroke-width="1.5" stroke-opacity="0.25"/>
+    <circle cx="0" cy="-70" r="130" stroke-width="1" stroke-opacity="0.15"/>
+  </g><text x="1360" y="960" text-anchor="end" font-family="Georgia, serif" font-size="28" fill="#d9b876" fill-opacity="0.55" letter-spacing="4">Elevated Everyday</text>
+</svg>
